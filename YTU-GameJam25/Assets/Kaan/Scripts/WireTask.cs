@@ -60,7 +60,7 @@ public class WireTask : MonoBehaviour {
          }
          if (successfulWires >= _rightWires.Count) {
             Debug.Log("TASK COMPLETED");
-         }
+            }
          else { 
             Debug.Log("TASK INCOMPLETED");
          }
@@ -68,4 +68,19 @@ public class WireTask : MonoBehaviour {
          yield return new WaitForSeconds(0.5f);
      }
    }
+
+    void Update()
+    {
+        Sign();
+    }
+
+    private void Sign()
+    {
+        IsTaskCompleted = true;
+        GameObject objectC = GameObject.FindWithTag("ObjectC");
+        if (objectC != null)
+        {
+            Destroy(objectC);
+        }
+    }
 }

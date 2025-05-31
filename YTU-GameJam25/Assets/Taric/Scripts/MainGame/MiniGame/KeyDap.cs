@@ -21,10 +21,10 @@ public class KeyDap : MonoBehaviour
                 warningCanvas.SetActive(false);
             }
 
-            GameObject objectA = GameObject.FindWithTag("ObjectA");
-            if (objectA != null)
+            GameObject objectC = GameObject.FindWithTag("ObjectC");
+            if (objectC != null)
             {
-                Destroy(objectA);
+                Destroy(objectC);
             }
         }
 
