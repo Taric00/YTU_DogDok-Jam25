@@ -1,49 +1,46 @@
-using System.Collections.Generic;
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 
 public class MonsterPathFollower : MonoBehaviour
 {
-    public Transform[] waypoints;
+    public Vector3[] waypointsPositions; 
     public float speed = 3f;
     private int currentWaypointIndex = 0;
-    public bool isChasing = true;
+    private bool isMoving = false;
 
-    void Update()
+    void Start()
     {
         StartCoroutine(StartMovingAfterDelay(5f));
     }
 
-    private void OnPath()
+    void Update()
     {
-        if (currentWaypointIndex < waypoints.Length)
+        if (isMoving && currentWaypointIndex < waypointsPositions.Length)
         {
-            Transform targetWaypoint = waypoints[currentWaypointIndex];
-            Vector3 direction = (targetWaypoint.position - transform.position).normalized;
-            transform.position += direction * speed * Time.deltaTime;
+            MoveAlongPath();
+        }
+    }
 
-            if (Vector3.Distance(transform.position, targetWaypoint.position) < 0.1f)
+    private void MoveAlongPath()
+    {
+        Vector3 targetPosition = waypointsPositions[currentWaypointIndex];
+        Vector3 direction = (targetPosition - transform.position).normalized;
+        transform.position += direction * speed * Time.deltaTime;
+
+        if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
+        {
+            currentWaypointIndex++;
+            if (currentWaypointIndex >= waypointsPositions.Length)
             {
-                currentWaypointIndex++;
+                isMoving = false;
+                Debug.Log("Yaratýk hedefe ulaþtý!");
             }
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("EndPoint")) 
-        {
-            isChasing = false;
-            PlayerPrefs.SetInt("isChasing", 0); 
-            Debug.Log("Yaratýk hedefe ulaþtý, isChasing = " + isChasing);
-        }
-    }
-
-    //wait 10 seconds
     IEnumerator StartMovingAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        OnPath();
-
+        isMoving = true;
     }
 }
