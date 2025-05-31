@@ -542,6 +542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition2D: {x: -20, y: -20}
+  canvasObject: {fileID: 0}
 --- !u!1 &173529011
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,10 +577,10 @@ RectTransform:
   - {fileID: 726803209}
   m_Father: {fileID: 493657427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 55, y: -285}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &173529013
 MonoBehaviour:
@@ -625,7 +626,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 604444406}
         m_TargetAssemblyTypeName: KeyDap, Assembly-CSharp
         m_MethodName: AddDigit
         m_Mode: 5
@@ -1047,7 +1048,7 @@ GameObject:
   - component: {fileID: 332978505}
   - component: {fileID: 332978504}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Digits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1092,7 +1093,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1205,10 +1206,10 @@ RectTransform:
   - {fileID: 1617457044}
   m_Father: {fileID: 493657427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -110, y: -120}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &361141298
 MonoBehaviour:
@@ -1254,7 +1255,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 604444406}
         m_TargetAssemblyTypeName: KeyDap, Assembly-CSharp
         m_MethodName: AddDigit
         m_Mode: 5
@@ -1664,7 +1665,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &604444402
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2298,10 +2299,10 @@ RectTransform:
   - {fileID: 894075358}
   m_Father: {fileID: 493657427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -110, y: -285}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &878143373
 MonoBehaviour:
@@ -2347,7 +2348,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 604444406}
         m_TargetAssemblyTypeName: KeyDap, Assembly-CSharp
         m_MethodName: AddDigit
         m_Mode: 5
@@ -2431,10 +2432,10 @@ RectTransform:
   - {fileID: 31746923}
   m_Father: {fileID: 493657427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -110, y: 45}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &882050972
 MonoBehaviour:
@@ -2480,7 +2481,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 604444406}
         m_TargetAssemblyTypeName: KeyDap, Assembly-CSharp
         m_MethodName: AddDigit
         m_Mode: 5
@@ -2814,6 +2815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition2D: {x: 20, y: -20}
+  canvasObject: {fileID: 0}
 --- !u!1 &942784098
 GameObject:
   m_ObjectHideFlags: 0
@@ -2848,10 +2850,10 @@ RectTransform:
   - {fileID: 676491704}
   m_Father: {fileID: 493657427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 220, y: 45}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &942784100
 MonoBehaviour:
@@ -2897,7 +2899,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 604444406}
         m_TargetAssemblyTypeName: KeyDap, Assembly-CSharp
         m_MethodName: AddDigit
         m_Mode: 5
@@ -3099,10 +3101,10 @@ RectTransform:
   - {fileID: 453401089}
   m_Father: {fileID: 493657427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 55, y: 45}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &981494342
 MonoBehaviour:
@@ -3148,7 +3150,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 604444406}
         m_TargetAssemblyTypeName: KeyDap, Assembly-CSharp
         m_MethodName: AddDigit
         m_Mode: 5
@@ -3232,10 +3234,10 @@ RectTransform:
   - {fileID: 245844075}
   m_Father: {fileID: 493657427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 220, y: -120}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &989461572
 MonoBehaviour:
@@ -3281,7 +3283,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 604444406}
         m_TargetAssemblyTypeName: KeyDap, Assembly-CSharp
         m_MethodName: AddDigit
         m_Mode: 5
@@ -3477,6 +3479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition2D: {x: 0, y: -20}
+  canvasObject: {fileID: 0}
 --- !u!1 &1004082110
 GameObject:
   m_ObjectHideFlags: 0
@@ -3804,6 +3807,9 @@ MonoBehaviour:
   regionBPosition: {fileID: 944683522}
   regionCPosition: {fileID: 34760525}
   spawnInterval: 15
+  canvasObjectA: {fileID: 328130556}
+  canvasObjectB: {fileID: 1658363305}
+  canvasObjectC: {fileID: 828136565}
 --- !u!4 &1237014972
 Transform:
   m_ObjectHideFlags: 0
@@ -4002,10 +4008,10 @@ RectTransform:
   - {fileID: 1541199530}
   m_Father: {fileID: 493657427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 55, y: -120}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1412991336
 MonoBehaviour:
@@ -4051,7 +4057,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 604444406}
         m_TargetAssemblyTypeName: KeyDap, Assembly-CSharp
         m_MethodName: AddDigit
         m_Mode: 5
@@ -4433,6 +4439,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1550926284}
+        m_TargetAssemblyTypeName: CameraButtonMover, Assembly-CSharp
+        m_MethodName: EnableCanvas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1550926282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4484,6 +4502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition2D: {x: 10, y: -40}
+  canvasObject: {fileID: 604444401}
 --- !u!1 &1570712129
 GameObject:
   m_ObjectHideFlags: 0
@@ -5199,6 +5218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition2D: {x: -10, y: -40}
+  canvasObject: {fileID: 0}
 --- !u!1 &2026437969
 GameObject:
   m_ObjectHideFlags: 0
@@ -5233,10 +5253,10 @@ RectTransform:
   - {fileID: 1183642885}
   m_Father: {fileID: 493657427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 220, y: -285}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2026437971
 MonoBehaviour:
@@ -5282,7 +5302,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 604444406}
         m_TargetAssemblyTypeName: KeyDap, Assembly-CSharp
         m_MethodName: AddDigit
         m_Mode: 5
