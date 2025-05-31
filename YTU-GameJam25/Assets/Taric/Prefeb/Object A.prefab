@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4260355348829797431}
   - component: {fileID: 5584612242269706611}
   - component: {fileID: 2956100056521699973}
+  - component: {fileID: 619840969494862398}
   - component: {fileID: 1480601684662499200}
   - component: {fileID: 2653677702904669962}
   m_Layer: 0
@@ -108,6 +109,18 @@ MonoBehaviour:
   - {x: -20, y: -20, z: 0}
   - {x: -23, y: -22, z: 0}
   speed: 1.5
+--- !u!114 &619840969494862398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7229631052927067651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2963489a51b00fe4180a1fe946b2c909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!58 &1480601684662499200
 CircleCollider2D:
   m_ObjectHideFlags: 0
