@@ -7,6 +7,7 @@ public class MonsterPathFollower : MonoBehaviour
     public Transform[] waypoints;
     public float speed = 3f;
     private int currentWaypointIndex = 0;
+    public bool isChasing = true;
 
     void Update()
     {
@@ -25,6 +26,16 @@ public class MonsterPathFollower : MonoBehaviour
             {
                 currentWaypointIndex++;
             }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("EndPoint")) 
+        {
+            isChasing = false;
+            PlayerPrefs.SetInt("isChasing", 0); 
+            Debug.Log("Yaratýk hedefe ulaþtý, isChasing = " + isChasing);
         }
     }
 
