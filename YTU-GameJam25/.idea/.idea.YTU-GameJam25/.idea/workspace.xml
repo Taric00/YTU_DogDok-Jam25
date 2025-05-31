@@ -6,12 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="98b983a0-b08b-49f9-a038-d658e5a5d68e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTU-GameJam25/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YTU-GameJam25/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTU-GameJam25/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YTU-GameJam25/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTU-GameJam25/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YTU-GameJam25/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTU-GameJam25/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YTU-GameJam25/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vsconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.vsconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scenes/Kaan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scenes/Kaan.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/Wire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/Wire.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/WireTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/WireTask.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate.meta" afterDir="false" />
@@ -160,7 +167,6 @@
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
@@ -178,6 +184,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Kaan/Scripts/UI_Script.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Kaan/Scripts/Wire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -258,7 +265,7 @@
       <updated>1748688558654</updated>
       <workItem from="1748688560618" duration="5615000" />
       <workItem from="1748701129895" duration="36000" />
-      <workItem from="1748701178868" duration="2435000" />
+      <workItem from="1748701178868" duration="4469000" />
     </task>
     <servers />
   </component>
