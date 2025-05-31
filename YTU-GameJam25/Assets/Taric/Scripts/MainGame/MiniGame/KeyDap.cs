@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 public class KeyDap : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI CodeText;
-    string codeTextValue;
+    string codeTextValue = "";
     public string safeCode;
 
     void Start()
     {
-    
+
     }
 
     private void Update()
@@ -24,7 +24,7 @@ public class KeyDap : MonoBehaviour
             SceneManager.LoadScene(0);
         }
 
-        if (codeTextValue.Length > 4)
+        if (codeTextValue.Length >= 4)
         {
             codeTextValue = "";
         }

@@ -9,12 +9,6 @@ EditorBuildSettings:
     path: Assets/Taric/Scene/1-MainGame.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Taric/Scene/2-MainGame.unity
-    guid: bfc2ad92fa9870f4785842760a88ba60
-  - enabled: 1
-    path: Assets/Taric/Scene/3-MainGame.unity
-    guid: d04a1ae3229968640be40ff3fe5022dc
-  - enabled: 1
     path: Assets/Taric/Scene/LeftScene.unity
     guid: 3d2823b373508ce4c872a8792b7119a4
   - enabled: 1
