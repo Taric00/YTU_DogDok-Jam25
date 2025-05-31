@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Taric/Scene/RightScene.unity
     guid: 6d6f7c693cb63244c94cb396c4c9b1f1
+  - enabled: 0
+    path: Assets/Kaan/Scenes/Main Menu.unity
+    guid: 91284c010665bd84c9830dd24bdffdfb
+  - enabled: 1
+    path: Assets/Kaan/Scenes/Kaan.unity
+    guid: ac5950eaa2b4721438085926f002759a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
