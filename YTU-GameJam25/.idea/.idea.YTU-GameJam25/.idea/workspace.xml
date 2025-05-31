@@ -19,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Material/WireMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Material/WireMat.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Material/WireMat.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Material/WireMat.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scenes/Kaan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scenes/Kaan.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scenes/Settings.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scenes/Settings.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/UI_Script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/UI_Script.cs" afterDir="false" />
@@ -275,7 +274,7 @@
       <updated>1748688558654</updated>
       <workItem from="1748688560618" duration="5615000" />
       <workItem from="1748701129895" duration="36000" />
-      <workItem from="1748701178868" duration="9128000" />
+      <workItem from="1748701178868" duration="9543000" />
     </task>
     <servers />
   </component>
