@@ -491,6 +491,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 116810111}
+        m_TargetAssemblyTypeName: CameraButtonMover, Assembly-CSharp
+        m_MethodName: DisableCanvas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &116810109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,7 +554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition2D: {x: -20, y: -20}
-  canvasObject: {fileID: 0}
+  canvasObject: {fileID: 604444401}
 --- !u!1 &173529011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1738,6 +1750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CodeText: {fileID: 332978504}
+  warningCanvas: {fileID: 604444401}
   safeCode: 5555
 --- !u!1 &619394800
 GameObject:

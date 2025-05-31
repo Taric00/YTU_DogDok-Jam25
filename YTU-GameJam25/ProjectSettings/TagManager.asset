@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - EndPoint
+  - ObjectA
+  - ObjectB
+  - ObjectC
   layers:
   - Default
   - TransparentFX

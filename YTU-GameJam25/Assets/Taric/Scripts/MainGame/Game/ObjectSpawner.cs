@@ -16,6 +16,7 @@ public class ObjectSpawner : MonoBehaviour
     [Header("Spawn Süresi iþte")]
     public float spawnInterval = 10f;
 
+
     public GameObject canvasObjectA,canvasObjectB, canvasObjectC;
 
     private int lastPrefabIndex = -1; //son spawn edilen obje nosu
@@ -50,36 +51,28 @@ public class ObjectSpawner : MonoBehaviour
             case 0:
                 Instantiate(prefabA, regionAPosition.position, Quaternion.identity);
                 Debug.Log("A bölgesine spawn edildi");
-                EnableCanvasA();
+                StartCoroutine(EnableCanvasWithDelay(canvasObjectA, 7f));
                 break;
             case 1:
                 Instantiate(prefabB, regionBPosition.position, Quaternion.identity);
                 Debug.Log("B bölgesine spawn edildi");
-                EnableCanvasB();
+                StartCoroutine(EnableCanvasWithDelay(canvasObjectB, 7f));
                 break;
             case 2:
                 Instantiate(prefabC, regionCPosition.position, Quaternion.identity);
                 Debug.Log("C bölgesine spawn edildi");
-                EnableCanvasC();
+                StartCoroutine(EnableCanvasWithDelay(canvasObjectC, 7f));
                 break;
         }
     }
 
-    public void EnableCanvasA()
+    private IEnumerator EnableCanvasWithDelay(GameObject canvasObject, float delay)
     {
-        if (canvasObjectA != null)
-            canvasObjectA.SetActive(true);
-    }
+        yield return new WaitForSeconds(delay);
 
-    public void EnableCanvasB()
-    {
-        if (canvasObjectB != null)
-            canvasObjectB.SetActive(true);
-    }
-
-    public void EnableCanvasC()
-    {
-        if (canvasObjectC != null)
-            canvasObjectC.SetActive(true);
+        if (canvasObject != null)
+        {
+            canvasObject.SetActive(true);
+        }
     }
 }

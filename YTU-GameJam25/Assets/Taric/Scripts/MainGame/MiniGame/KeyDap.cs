@@ -6,22 +6,26 @@ using UnityEngine.SceneManagement;
 public class KeyDap : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI CodeText;
-    string codeTextValue = "";
+    [SerializeField] private GameObject warningCanvas; 
     public string safeCode;
+    private string codeTextValue = "";
 
-    void Start()
-    {
-
-    }
-
-    private void Update()
+    void Update()
     {
         CodeText.text = codeTextValue;
 
         if (codeTextValue == safeCode)
         {
-            //buraya uyarýyý yok etme ve prefeb objesini yok etme kodunu girmen lazýmke//
-            SceneManager.LoadScene(0);
+            if (warningCanvas != null)
+            {
+                warningCanvas.SetActive(false);
+            }
+
+            GameObject objectA = GameObject.FindWithTag("ObjectA");
+            if (objectA != null)
+            {
+                Destroy(objectA);
+            }
         }
 
         if (codeTextValue.Length >= 4)
