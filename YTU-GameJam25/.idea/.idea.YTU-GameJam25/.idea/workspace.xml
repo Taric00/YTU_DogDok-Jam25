@@ -19,11 +19,13 @@
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Material/WireMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Material/WireMat.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Material/WireMat.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Material/WireMat.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scenes/Kaan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scenes/Kaan.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scenes/Settings.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scenes/Settings.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/UI_Script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/UI_Script.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/Wire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/Wire.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/WireTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/WireTask.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kaan/Sounds.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Sounds.mixer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate.meta" afterDir="false" />
@@ -195,6 +197,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Kaan/Scripts/UI_Script.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Kaan/Scripts/Wire.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Kaan/Scripts/WireTaskTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -274,7 +277,7 @@
       <updated>1748688558654</updated>
       <workItem from="1748688560618" duration="5615000" />
       <workItem from="1748701129895" duration="36000" />
-      <workItem from="1748701178868" duration="9543000" />
+      <workItem from="1748701178868" duration="19120000" />
     </task>
     <servers />
   </component>
