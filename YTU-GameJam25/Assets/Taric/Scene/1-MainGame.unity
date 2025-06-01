@@ -4679,6 +4679,8 @@ GameObject:
   - component: {fileID: 963290747}
   - component: {fileID: 963290746}
   - component: {fileID: 963290745}
+  - component: {fileID: 963290750}
+  - component: {fileID: 963290749}
   m_Layer: 5
   m_Name: MiddleCameraButton
   m_TagString: Untagged
@@ -4825,6 +4827,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963290743}
   m_CullTransparentMesh: 1
+--- !u!70 &963290749
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963290743}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.5, y: 1}
+  m_Direction: 0
+--- !u!114 &963290750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963290743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 649955e1102702945bcbca0154d9995f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wireTaskUI: {fileID: 963290743}
 --- !u!1 &981494340
 GameObject:
   m_ObjectHideFlags: 0
@@ -6088,6 +6140,7 @@ MonoBehaviour:
   - {fileID: 1513117871}
   - {fileID: 914688280}
   - {fileID: 873566071}
+  miniGameUI: {fileID: 596395590}
   CurrentDraggedWire: {fileID: 0}
   CurrentHoveredWire: {fileID: 0}
   IsTaskCompleted: 0

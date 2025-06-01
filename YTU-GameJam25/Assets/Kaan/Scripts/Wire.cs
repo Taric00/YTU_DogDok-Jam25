@@ -15,7 +15,8 @@ public class Wire : MonoBehaviour,
    private bool _isDragStarted = false;
    private WireTask _wireTask;
    public bool IsSuccess = false;
-   private void Awake() {
+  
+   public void Initialize() {  
       _image = GetComponent<Image>();
       _lineRenderer = GetComponent<LineRenderer>();
       _canvas = GetComponentInParent<Canvas>();
@@ -83,4 +84,5 @@ public class Wire : MonoBehaviour,
       _isDragStarted = false;
       _wireTask.CurrentDraggedWire = null;
    }
+   
 }

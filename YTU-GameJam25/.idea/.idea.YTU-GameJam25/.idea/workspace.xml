@@ -16,9 +16,16 @@
       <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kaan/Material/WireMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Material/WireMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kaan/Material/WireMat.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Material/WireMat.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scenes/Kaan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scenes/Kaan.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scenes/Settings.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scenes/Settings.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/UI_Script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/UI_Script.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/Wire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/Wire.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Kaan/Scripts/WireTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Scripts/WireTask.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kaan/Sounds.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kaan/Sounds.mixer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate.meta" afterDir="false" />
@@ -40,10 +47,6 @@
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Scene.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scene.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Scene/1-MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scene/1-MainGame.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Scene/1-MainGame.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scene/1-MainGame.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Taric/Scene/LeftScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scene/LeftScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Taric/Scene/LeftScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scene/LeftScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Taric/Scene/RightScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scene/RightScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Taric/Scene/RightScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scene/RightScene.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/Buttons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/Buttons.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/Buttons/CameraMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/Buttons/CameraMover.cs" afterDir="false" />
@@ -57,6 +60,12 @@
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/KeyDap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/KeyDap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/KeyDap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/KeyDap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/PipeChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/PipeChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/PipeChecker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/PipeChecker.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/PipeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/PipeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/PipeManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/PipeManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/PipeScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/PipeScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/PipeScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/MiniGame/PipeScript.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/TestB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/TestB.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/TestB.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/TestB.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/TestC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Scripts/MainGame/TestC.cs" afterDir="false" />
@@ -67,6 +76,7 @@
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Tools/1-uyarı.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Tools/1-uyarı.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Tools/2-uyarı.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Tools/2-uyarı.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Taric/Tools/3-uyarı.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Tools/3-uyarı.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Taric/Tools/SolÜst.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Taric/Tools/SolÜst.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
@@ -184,8 +194,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Kaan/Scripts/Settings_Menu_Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Kaan/Scripts/UI_Script.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Kaan/Scripts/Wire.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Kaan/Scripts/WireTaskTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -196,27 +208,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CodeLensConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\kaany\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\kaany\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\kaany\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\kaany\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\kaany\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\kaany\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.29f1\Editor\Unity.exe" />
@@ -265,7 +277,7 @@
       <updated>1748688558654</updated>
       <workItem from="1748688560618" duration="5615000" />
       <workItem from="1748701129895" duration="36000" />
-      <workItem from="1748701178868" duration="4469000" />
+      <workItem from="1748701178868" duration="19120000" />
     </task>
     <servers />
   </component>
